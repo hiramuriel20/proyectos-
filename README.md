@@ -36,7 +36,10 @@ usuarios = [
 ]
 
 En la segunda parte de este proyecto es  Programa de Fidelización de Clientes PARTE 2, durante el próximo capitulo del  Programa de Fidelización de Clientes se desarrollará un análisis completo que responderá directamente a las necesidades del cliente.
-Programa de Fidelización de Clientes PARTE 2
+
+
+Programa de Fidelización de Clientes PARTE 2:
+
 apoyándote en las bases sentadas en el primer proyecto. Esta vez, la tienda ha establecido requisitos más complejos para profundizar su conocimiento sobre el comportamiento de sus clientes. Su objetivo es personalizar mejor sus campañas publicitarias analizando datos más complejos, como la segmentación de clientes y las tendencias de consumo en el tiempo.
 
 Al abordar este segundo proyecto, profundizarás en las tareas de análisis de datos del mundo real, mejorando tu capacidad para manejar conjuntos de datos más intrincados, así como retos más desafiantes. Este enfoque paso a paso garantiza que satisfarás las necesidades del cliente de manera efectiva mientras amplías tu experiencia de forma progresiva.
