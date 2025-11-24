@@ -1,45 +1,34 @@
-ALGUNOS PROYECTOS  divididos por  SPRINTS  ABARCANDO MIS SPRINTS 1,2,3,4,5,6,8,9,10,11,12,13. ETC
-SPRINT  Programa de Fidelización de Clientes PARTE 1: Este planteamiento por etapas te permitirá construir el análisis progresivamente, generando entregables útiles para el equipo de marketing y fortaleciendo tu experiencia con problemas de datos reales.
-Descripción del proyecto
+proyecto, trabaja con datos reales de transmisión de música online para explorar y procesar información sobre los hábitos de escucha de los usuarios y las usuarias en dos ciudades: Springfield y Shelbyville.
 
-La empresa de comercio electrónico Store 1 está preparando el lanzamiento de un nuevo Programa de Fidelización de Clientes. Para ello, necesita analizar su base de clientes y asegurarse de que los datos estén completos, limpios y organizados.
+implica diferentes etapas, como la descripción general de los datos, el preprocesamiento y la prueba de hipótesis.
 
-El objetivo es diseñar campañas personalizadas y optimizar futuras acciones de marketing. Para lograrlo, necesita segmentar a los clientes según variables como la edad, el historial de compras y las categorías de productos adquiridos.
+Siempre que investigamos, necesitamos formular hipótesis que después podamos probar. A veces aceptamos estas hipótesis; otras veces, las rechazamos. Para tomar las decisiones correctas, una empresa debe ser capaz de entender si está haciendo las suposiciones correctas.
 
-Como miembro del equipo de análisis, tu tarea inicial será revisar y transformar una muestra de los datos existentes para dejarlos listos para el análisis. En esta fase deberás:
+En este proyecto, compararás las
 
-    Limpiar los perfiles de los clientes.
-    Estandarizar nombres y edades.
-    Calcular el gasto total por cliente.
-    Validar la consistencia de los datos y corregir errores.
-    Preparar los datos para generar indicadores de negocio (KPIs).
+preferencias musicales de las ciudades de Springfield y Shelbyville. Estudiarás datos reales de transmisión de música online para probar la hipótesis a continuación y comparar el comportamiento de los usuarios y las usuarias de estas dos ciudades.
+1.1. Objetivo:
 
-Los datos brindados por la empresa Store 1 tienen el formato de una lista de Python, con las siguientes columnas de datos:
+Prueba la hipótesis:
 
-    usuario_id: Identificador único para cada usuario.
-    usuario_nombre: Nombre del usuario.
-    usuario_edad: Edad del usuario.
-    categorias_fav_low: Categorías favoritas de los artículos que compró el usuario, como ELECTRÓNICA, DEPORTE, LIBROS, etc.
-    gasto_por_categoria: Una lista de números enteros que indican la cantidad total gastada en cada una de las categorías favoritas.
+    La actividad de los usuarios y las usuarias difiere según el día de la semana y dependiendo de la ciudad.
 
-usuarios = [ 
-    ['32415', ' mike_reed ', 32.0, ['ELECTRÓNICA', 'DEPORTE', 'LIBROS'], [894, 213, 173]],
-    ['31980', 'kate morgan', 24.0, ['ROPA', 'LIBROS'], [439, 390]],
-    ['32156', ' john doe ', 37.0, ['ELECTRÓNICA', 'HOGAR', 'COMIDA'], [459, 120, 99]],
-    ['32761', 'SAMANTHA SMITH', 29.0, ['ROPA', 'ELECTRÓNICA', 'BELLEZA'], [299, 679, 85]],
-    ['32984', 'David White', 41.0, ['LIBROS', 'HOGAR', 'DEPORTE'], [234, 329, 243]],
-    ['33001', 'emily brown', 26.0, ['BELLEZA', 'HOGAR', 'COMIDA'], [213, 659, 79]],
-    ['33767', ' Maria Garcia', 33.0, ['ROPA', 'COMIDA', 'BELLEZA'], [499, 189, 63]],
-    ['33912', 'JOSE MARTINEZ', 22.0, ['DEPORTE', 'ELECTRÓNICA', 'HOGAR'], [259, 549, 109]],
-    ['34009', 'lisa wilson ', 35.0, ['HOGAR', 'LIBROS', 'ROPA'], [329, 189, 329]],
-    ['34278', 'James Lee', 28.0, ['BELLEZA', 'ROPA', 'ELECTRÓNICA'], [189, 299, 579]],
-]
+1.2. Etapas
 
-En la segunda parte de este proyecto es  Programa de Fidelización de Clientes PARTE 2, durante el próximo capitulo del  Programa de Fidelización de Clientes se desarrollará un análisis completo que responderá directamente a las necesidades del cliente.
+Los datos del comportamiento del usuario se almacenan en el archivo /datasets/music_project_en.csv. No hay ninguna información sobre la calidad de los datos, así que necesitarás examinarlos antes de probar la hipótesis.
 
+Primero, se evalua la calidad de los datos y verás si los problemas son significativos. Entonces, durante el preprocesamiento de datos, tomarás en cuenta los problemas más críticos.
 
-Programa de Fidelización de Clientes PARTE 2:
+el proyecto consiste en tres etapas:
 
-apoyándote en las bases sentadas en el primer proyecto. Esta vez, la tienda ha establecido requisitos más complejos para profundizar su conocimiento sobre el comportamiento de sus clientes. Su objetivo es personalizar mejor sus campañas publicitarias analizando datos más complejos, como la segmentación de clientes y las tendencias de consumo en el tiempo.
+    Descripción de los datos.
+    Preprocesamiento de datos.
+    Prueba de hipótesis.
 
-Al abordar este segundo proyecto, profundizarás en las tareas de análisis de datos del mundo real, mejorando tu capacidad para manejar conjuntos de datos más intrincados, así como retos más desafiantes. Este enfoque paso a paso garantiza que satisfarás las necesidades del cliente de manera efectiva mientras amplías tu experiencia de forma progresiva.
+' userID': identificador del usuario o la usuaria;
+'Track': título de la canción;
+'artist': nombre del artista;
+'genre': género de la pista;
+'City': ciudad del usuario o la usuaria;
+'time': la hora exacta en la que se reprodujo la canción;
+'Day': día de la semana.
